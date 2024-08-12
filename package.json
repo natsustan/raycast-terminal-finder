@@ -6,7 +6,8 @@
   "icon": "command-icon.png",
   "author": "yedongze",
   "contributors": [
-    "Ianvs"
+    "Ianvs",
+    "thuggyduck"
   ],
   "license": "MIT",
   "commands": [
@@ -60,6 +61,13 @@
       "mode": "no-view"
     },
     {
+      "name": "finderToKitty",
+      "title": "Finder → kitty",
+      "subtitle": "Open Path",
+      "description": "Open current Finder directory in Terminal",
+      "mode": "no-view"
+    },
+    {
       "name": "finderToWez",
       "title": "Finder → WezTerm",
       "subtitle": "Open Path",
@@ -90,6 +98,13 @@
     {
       "name": "wezToFinder",
       "title": "WezTerm → Finder",
+      "subtitle": "Open Path",
+      "description": "Open current Finder directory in Terminal",
+      "mode": "no-view"
+    },
+    {
+      "name": "kittyToFinder",
+      "title": "kitty → Finder",
       "subtitle": "Open Path",
       "description": "Open current Finder directory in Terminal",
       "mode": "no-view"
